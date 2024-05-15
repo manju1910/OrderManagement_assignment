@@ -1,6 +1,6 @@
 from dao.OrderProcessor import OrderProcessor
-from entity.Product import Product
-from entity.User import User
+from Entity.Product import Product
+from Entity.User import User
 from exception import UserNotFound, OrderNotFound
 class OrderManagement:
     def __init__(self):
